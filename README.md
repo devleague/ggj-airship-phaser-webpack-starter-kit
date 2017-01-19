@@ -54,6 +54,7 @@ Run:
 Run:
 
 ```airship login [NAME OF YOUR SITE]```
+
 and enter your credentials
 
 
@@ -62,6 +63,7 @@ and enter your credentials
 Run:
 
 ```airship land```
+
 This will create a couple of files in your directory
 
 
