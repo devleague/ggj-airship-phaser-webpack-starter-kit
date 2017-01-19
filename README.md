@@ -45,12 +45,14 @@ Run:
 ## 4. Install Airship CMS
 
 Run:
+
 ```curl -o install.sh https://install.airshipcms.io && sh ./install.sh```
 
 
 ## 5. Login to Airship CMS
 
 Run:
+
 ```airship login [NAME OF YOUR SITE]```
 and enter your credentials
 
@@ -58,6 +60,7 @@ and enter your credentials
 ## 6. Initialize Airship CMS
 
 Run:
+
 ```airship land```
 This will create a couple of files in your directory
 
@@ -65,6 +68,7 @@ This will create a couple of files in your directory
 ## 7. Start your Airship Server
 
 Run:
+
 ```airship serve```
 
 
