@@ -66,7 +66,7 @@ Run:
 ```airship serve```
 
 
-## 8. In a seperate termainl, run the development server:
+## 8. In a seperate terminal, run the development server:
 
 Run:
 
@@ -92,6 +92,9 @@ Run:
 Run:
 
 ```airship launch```
+
+and that's it - your site is launched!
+
 
 ## Credits
 Big thanks to these great repos:
