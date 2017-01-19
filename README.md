@@ -39,10 +39,12 @@ Run:
 
 ```npm install```
 
+
 ## 4. Install Airship CMS
 
 Run:
 ```curl -o install.sh https://install.airshipcms.io && sh ./install.sh```
+
 
 ## 5. Login to Airship CMS
 
@@ -50,22 +52,26 @@ Run:
 ```airship login [NAME OF YOUR SITE]```
 and enter your credentials
 
+
 ## 6. Initialize Airship
 
 Run:
 ```airship land```
 This will create a couple of files in your directory
 
+
 ## 7. Start your Airship Server
 
 Run:
 ```airship serve```
+
 
 ## 8. In a seperate termainl, run the development server:
 
 Run:
 
 ```npm run dev```
+
 
 This will run a server so you can run the game in a browser.
 
@@ -74,11 +80,18 @@ Open your browser and enter localhost:9001 into the address bar.
 
 ## Build for deployment:
 
+## 1. Run the deployment scripts to optimize and minimize the compiled bundle.
+
 Run:
 
 ```npm run deploy```
 
-This will optimize and minimize the compiled bundle.
+
+## 2. Launch your project to Airship CMS
+
+Run:
+
+```airship launch```
 
 ## Credits
 Big thanks to these great repos:
