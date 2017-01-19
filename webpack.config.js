@@ -23,7 +23,7 @@ module.exports = {
   devtool: 'cheap-source-map',
   output: {
     pathinfo: true,
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'compartments/assets/scripts'),
     publicPath: './dist/',
     filename: 'bundle.js'
   },
@@ -31,13 +31,6 @@ module.exports = {
   plugins: [
     definePlugin,
     new webpack.optimize.CommonsChunkPlugin(/* chunkName= */'vendor', /* filename= */'vendor.bundle.js'),
-    new BrowserSyncPlugin({
-      host: process.env.IP || 'localhost',
-      port: process.env.PORT || 3000,
-      server: {
-        baseDir: ['./', './build']
-      }
-    })
   ],
   module: {
     loaders: [

@@ -1,5 +1,5 @@
-# Phaser + ES6 + Webpack.
-#### A bootstrap project to create games with Phaser + ES6 + Webpack.
+# Airship + Phaser + ES6 + Webpack.
+#### A bootstrap project to create games with Phaser + ES6 + Webpack on Airship CMS.
 
 ![Phaser+ES6+Webpack](https://raw.githubusercontent.com/lean/phaser-es6-webpack/master/assets/images/phaser-es6-webpack.jpg)
 
@@ -7,6 +7,7 @@
 
 
 ## Features
+- Deploy your game to Airship CMS
 - ESLINT with JavaScript Standard Style configuration
 - Next generation of Javascript
 - Webpack ready
@@ -38,7 +39,29 @@ Run:
 
 ```npm install```
 
-## 4. Run the development server:
+## 4. Install Airship CMS
+
+Run:
+```curl -o install.sh https://install.airshipcms.io && sh ./install.sh```
+
+## 5. Login to Airship CMS
+
+Run:
+```airship login [NAME OF YOUR SITE]```
+and enter your credentials
+
+## 6. Initialize Airship
+
+Run:
+```airship land```
+This will create a couple of files in your directory
+
+## 7. Start your Airship Server
+
+Run:
+```airship serve```
+
+## 8. In a seperate termainl, run the development server:
 
 Run:
 
@@ -46,9 +69,7 @@ Run:
 
 This will run a server so you can run the game in a browser.
 
-Open your browser and enter localhost:3000 into the address bar.
-
-Also this will start a watch process, so you can change the source and the process will recompile and refresh the browser
+Open your browser and enter localhost:9001 into the address bar.
 
 
 ## Build for deployment:
@@ -60,7 +81,7 @@ Run:
 This will optimize and minimize the compiled bundle.
 
 ## Credits
-Big thanks to this great repos:
+Big thanks to these great repos:
 
 https://github.com/belohlavek/phaser-es6-boilerplate
 
