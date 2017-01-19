@@ -1,4 +1,4 @@
-# Airship + Phaser + ES6 + Webpack.
+# Airship CMS + Phaser + ES6 + Webpack.
 #### A bootstrap project to create games with Phaser + ES6 + Webpack on Airship CMS.
 
 ![Phaser+ES6+Webpack](https://raw.githubusercontent.com/lean/phaser-es6-webpack/master/assets/images/phaser-es6-webpack.jpg)
@@ -53,7 +53,7 @@ Run:
 and enter your credentials
 
 
-## 6. Initialize Airship
+## 6. Initialize Airship CMS
 
 Run:
 ```airship land```
